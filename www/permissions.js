@@ -1,7 +1,7 @@
 var permissionsName = 'Permissions';
 
 function Permissions() {
-
+    this.ACTION_MANAGE_STORAGE:'android.permission.ACTION_MANAGE_STORAGE'
     this.ACCESS_CHECKIN_PROPERTIES = 'android.permission.ACCESS_CHECKIN_PROPERTIES';
     this.ACCESS_BACKGROUND_LOCATION = 'android.permission.ACCESS_BACKGROUND_LOCATION';
     this.ACCESS_COARSE_LOCATION = 'android.permission.ACCESS_COARSE_LOCATION';
